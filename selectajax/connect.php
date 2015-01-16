@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect('localhost','root','analis');
+$con = mysql_connect('localhost','root','');
 if(!$con){
 	die("Database belom diaktifkan");
 }
