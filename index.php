@@ -42,7 +42,7 @@
 		.green { background: #96c11f; }
 
 	</style>
-	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
 	<script src="js/custom.js" type="text/javascript"></script>
 	<script>
 		//  $(document).ready(function() {
@@ -70,11 +70,11 @@
 
 	<div class="menu">
         <a class="yellow" href="<?php echo $base_url; ?>feed">FEED & RSS</a>
-      <!--   <a class="green" href="#">Blog</a>
-        <a class="pink" href="#">Kureshki</a>
-        <a class="purple" href="#">Themes</a>
-        <a class="blue" href="#">Madenca</a>
-        <a class="orange" href="#">Contact</a> -->
+        <a class="green" href="<?php echo $base_url; ?>selectajax">Select Ajax</a>
+        <!-- <a class="pink" href="#">Kureshki</a> -->
+        <!-- <a class="purple" href="#">Themes</a> -->
+        <!-- <a class="blue" href="#">Madenca</a> -->
+        <!-- <a class="orange" href="#">Contact</a> -->
     </div>
 </body>
 </html>
