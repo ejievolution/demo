@@ -69,12 +69,12 @@
 ?>
 
 	<div class="menu">
-        <a class="yellow" href="<?php echo $base_url; ?>feed">FEED & RSS</a>
-        <a class="green" href="<?php echo $base_url; ?>selectajax">Select Ajax</a>
-        <!-- <a class="pink" href="#">Kureshki</a> -->
-        <!-- <a class="purple" href="#">Themes</a> -->
-        <!-- <a class="blue" href="#">Madenca</a> -->
-        <!-- <a class="orange" href="#">Contact</a> -->
+        <a target="_blank" class="yellow" href="<?php echo $base_url; ?>feed">FEED & RSS</a>
+        <a target="_blank" class="green" href="<?php echo $base_url; ?>selectajax">Select Ajax</a>
+        <!-- <a target="_blank" class="pink" href="#">Kureshki</a> -->
+        <!-- <a target="_blank" class="purple" href="#">Themes</a> -->
+        <!-- <a target="_blank" class="blue" href="#">Madenca</a> -->
+        <!-- <a target="_blank" class="orange" href="#">Contact</a> --> 
     </div>
 </body>
 </html>
